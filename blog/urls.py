@@ -8,6 +8,6 @@ urlpatterns = [
 		r'(?P<month>\d{1,2})/'
 		r'(?P<slug>[\w\-]+)/$',
 		post_detail,
-		{'parent_template': 'base.html'},
+		{'parent_template':'base.html'},
 		name='blog_post_detail'),
 ]
