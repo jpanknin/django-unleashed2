@@ -1,6 +1,6 @@
 from django.conf.urls import url
 
-from .views import tag_list, tag_detail, startup_list
+from .views import tag_list, tag_detail, startup_list, startup_detail
 
 urlpatterns = [
 	url(r'^startup/$', startup_list, name='organizer_startup_list'),
