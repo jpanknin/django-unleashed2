@@ -23,7 +23,7 @@ class Tag(models.Model):
 		return reverse('organizer_tag_update', kwargs={'slug':self.slug})
 
 	def get_delete_url(self):
-		return reverse('organizer_tag_delete', kwargs={'pk':self.slug})
+		return reverse('organizer_tag_delete', kwargs={'slug':self.slug})
 
 
 class Startup(models.Model):
